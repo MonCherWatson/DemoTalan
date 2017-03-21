@@ -1,4 +1,4 @@
-package ch.talan.javalanche.leak;
+package ch.talan.javalanche;
 
 import java.io.IOException;
 import java.math.BigDecimal;

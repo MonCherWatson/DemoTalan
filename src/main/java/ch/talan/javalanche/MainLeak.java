@@ -1,4 +1,4 @@
-package ch.talan.javalanche.leak;
+package ch.talan.javalanche;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

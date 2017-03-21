@@ -1,4 +1,4 @@
-package ch.talan.javalanche.leak;
+package ch.talan.javalanche;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -16,7 +16,7 @@ public class LeakingService {
     public static List<BigDecimal> leaker = new ArrayList<>();
 
     public List<BigDecimal> doingStuff() {
-        sleep(10000);
+        sleep(20000);
         double counter = 0;
         while (true) {
             try {
